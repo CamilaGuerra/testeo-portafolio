@@ -1,0 +1,970 @@
+/* 
+Theme Name: Halimak
+Theme URI: www.halimak.com
+Description: Sitio web sobre mi portafolio profesional como diseñadora y desarrolladora web.
+Version: 1.0
+Author: Halimak
+Author URI: http://www.halimak.com
+*/
+
+
+/* ----------- HEADER ----------------*/
+
+.navbar-collapse{
+    text-align: start;
+    flex-grow: initial;
+}
+
+.logo a img{
+    width: 130px !important;
+    height: 50px !important;
+}
+
+.navbar .nav-link{
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #7765C8;
+}
+
+.nav-item{
+    margin-left: 20px;
+}
+
+#navbarNav{
+    display: flex;
+    justify-content: center;
+}
+
+#menu-menu-principal{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 350px !important;
+}
+
+.navbar a:active{
+    color: #EF946C!important;
+    text-decoration: underline;
+}
+
+.navbar .nav-item a:hover{
+    color: #EF946C!important;
+    text-decoration: underline;
+}
+
+.icon{
+    font-size: 24px !important;
+    margin-right: 20px;
+    color:#7765C8;
+}
+
+.icon:hover{
+    color: #EF946C!important;
+}
+
+.navbar{
+    background-color: white !important;
+    padding: 5px 15px !important;
+    box-shadow: 1px 0.5px 5px black;
+    z-index: 10;
+}
+/* ----------- HEADER ----------------*/
+
+/*--------------------- FOOTER ----------------------*/
+
+
+
+.footer a{
+    font-family: 'Poppins';
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    padding: 0px 15px;
+}
+
+.footer a:hover{
+    color: #EF946C;
+}
+
+.footer-bajo{
+    font-family: 'Nunito';
+    font-weight: 400;
+    color: black;
+    font-size: 15px;
+    margin: 15px 0px 10px;
+}
+
+.footer h6{
+    color: white;
+    font-family: 'Poppins';
+    font-size: 14px;
+    padding: 0px 15px;
+    margin: 0;
+}
+.footer{
+    background-color: #0A0A0A;
+    padding: 20px 0px;
+    align-items: center;
+}
+
+.footer .row{
+    margin-right: 0 !important;
+}
+
+.rowww{
+    margin-top: 0 !important;
+    margin-bottom: 80px !important;
+}
+
+.infoo {
+    text-align: center;
+    justify-content: center
+}
+
+#footer-img{
+    background: url('assets/img/logo-negro.jpg') 50% 0 no-repeat;
+    background-size: 150px;
+    width: 200px;
+    height: 60px;
+    justify-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#footer-img a{
+    padding: 30px 100px;
+}
+
+
+/*--------------------- FOOTER ----------------------*/
+
+/* ----------- Inicio ----------------*/
+
+.fondo-1{
+    background: url('assets/img/1.1.png') 50% 0 no-repeat;
+    background-size: cover;
+    filter: drop-shadow(0 0 0.75rem rgba(188, 130, 174, 0.574));
+    margin-top: -230px;
+    text-align: center;
+    padding: 300px 0px 160px;
+    margin-bottom: 100px;
+}
+
+
+.img-redonda img{
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    outline: 6px dashed #EF946C;
+    outline-offset: -4px;
+    padding: auto;
+}
+
+.img-redonda{
+    overflow:hidden;
+    padding-left: 50px;
+}
+
+.arriba-1 {
+    font-size: 20px;
+    margin: 0px 0px -8px;
+    font-family: 'PoetsenOne';
+    font-weight: 400;
+    color: #544393;
+}
+
+.intro-arriba{
+    padding:80px;
+    margin:auto;
+}
+
+.intro-arriba h1{
+    font-size: 80px ;
+    font-family: 'PoetsenOne';
+    font-weight: 400;
+    -webkit-text-stroke: 1px #fff;
+    color: #EF946C;
+    text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.59);
+}
+.arriba-2{
+    font-size: 14px;
+    font-family: 'Lexend';
+    font-weight: 600;
+    color: #544393;
+}
+
+.intro-arriba p{
+    font-size: 15px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: black;
+}
+
+.yo{
+    padding-right: 0px;
+}
+
+.servicios{
+    text-align: center;
+    align-items: center;
+    margin:  -28px 20px 100px;
+    display: flex;
+    justify-content:space-between; /* vertical */
+    align-items: flex-start; /* horizontal */                            
+    flex-wrap: wrap;
+}
+
+.servicios h2{
+    font-family: 'PoetsenOne';
+    font-size: 40px;
+    font-weight: 400;
+    color: #544393;
+    margin: -5px 0px 80px;
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.416);
+}
+
+.servi-1{
+    margin: 10px 20px;
+    width: 30%;
+}
+
+.servi-1:hover{
+    transform: scale(1.05);
+}
+
+.servi-1 img{
+    width: 250px !important;
+    height: 250px;
+    object-fit: contain;
+    filter: saturate(1.5);
+}
+
+.titulo-1{
+    margin-bottom: 8px;
+    filter: saturate(1.5);
+}
+
+
+.servicios img{
+    width: 280px;
+}
+
+.servicios h3{
+    font-family: 'Lexend';
+    font-size: 18px;
+    font-weight: 600;
+    color: #EF946C;
+    padding: 6px 0px 10px;
+    text-shadow: 0px 0px 1px  rgba(47, 7, 43, 0.674);
+}
+
+.servicios p{
+    font-family: 'Nunito';
+    font-size: 15px;
+    color: #544393;
+    margin: -15px 0px 0px;
+    font-weight: 600;
+}
+
+.container-2 {
+    background: url('assets/img/morado.png') 50% 0 no-repeat ;
+    background-size: cover;
+    padding: 160px 0px 80px;
+    filter: drop-shadow(0 0 0.75rem rgba(188, 130, 174, 0.574));
+}
+
+.card {
+    justify-content: center;
+    overflow: hidden;
+    width: 350px;
+    height: 480px;
+    text-align: center;
+    border-radius: 6%;
+    margin: 100px 0px 50px;
+    border: solid 1.5px #544393;
+}
+
+.card .card-body{
+    text-align: center;
+    align-items: center;
+    padding: 30px 40px ;
+}
+
+.card-body h2{
+    font-family: 'Lexend';
+    font-size: 25px;
+    font-weight: 700;
+    color: #7765C8;
+}
+
+.card-body h5{
+    font-family: 'Lexend';
+    font-size: 12px;
+    color: #EF946C;
+}
+
+.card-body ul li a{
+    color: #0A0A0A;
+    text-decoration: none;
+}
+
+.card img{
+    width: 350px;
+    height: 230px;
+    object-fit:cover;
+    object-position: -20% 0;
+}
+
+.card-body p{
+    font-family: 'Nunito';
+    font-size: 13.7px;
+    color: black;
+    font-weight: 600;
+    padding-bottom:auto;
+}
+
+.cate{
+    margin-right: 5px;
+    color: #f37e4b;
+}
+.card-body{
+    display: grid;
+    grid-template-rows:0fr 0fr 0.5fr 0fr 0fr 1.2fr;
+    color: #EF946C;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 10px black ;
+}
+
+.ulti{
+    text-align: center;
+    font-family: 'PoetsenOne';
+    font-size: 40px;
+    font-weight: 500;
+    margin: 20px 0px 110px;
+    color: white;
+    text-shadow: 2px 0 #EF946C, -2px 0 #EF946C, 0 2px #EF946C, 0 -2px #EF946C,
+    2px 2px #EF946C, -1px -1px #EF946C, 2px -2px #EF946C, -1px 1px #EF946C;
+    letter-spacing: 2px;
+}
+
+.card-body ul {
+    list-style: none ;
+    padding: 0 ;
+    margin: 0;
+}
+
+.card-body .botoon:hover{
+    transform: scale(1.1);
+}
+.vermas a{
+    margin:0px 0px 80px;
+    padding: 8px 40px;
+    background-color: #544393;
+    color: white;
+    font-size: 15px;
+    font-family: 'Poppins';
+}
+.card-body .botoon a{
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #544393;
+    background-color: white;
+    border: 2px solid #544393;
+    border-radius: 20px;
+    padding: 5px 20px !important;
+    margin: 10px 0px;
+    width: 130px;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center !important;
+}
+
+.vermas a:hover{
+    background-color: #7765C8;
+    color: white;
+}
+
+.metodologia{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.metodologia .row{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.metodologia p{
+    width: auto;
+    font-size: 80px;
+    justify-self: center;
+    color: #7765C8;
+    margin: 0;
+}
+
+.metodologia .col-3{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-self: center;
+}
+
+.metodologia h2{
+    font-family: 'Lexend';
+    font-size: 40px;
+    font-weight: 600;
+    color: #EF946C;
+}
+
+.metodologia h3{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    color: #544393;
+    padding-inline: 30px;
+    text-shadow: rgba(0, 0, 0, 0.412) 0px 0px 3px;
+}
+
+.metodologia p:hover{
+    transform: scale(1.1);
+}
+
+/* ----------- Inicio ----------------*/
+
+/*--------------------- Single ----------------------*/
+.separador {
+    border-top: 4px dotted #f37e4b;
+    height: 2px;
+    max-width: 1000px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+}
+
+.separador-2 {
+    border-top: 4px dotted #f37e4b;
+    height: 2px;
+    max-width: 1000px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+}
+.fondo-pro{
+    background: url('assets/img/2.1.png') 50% 0 no-repeat;
+    background-size: 110%;
+    background-position-y: -600px;
+    margin-top: -15px;
+    padding: 100px 0px 160px;
+}
+
+.fondo-pro h2{
+    font-family: 'PoetsenOne';
+    font-size: 40px;
+    color: #544393;
+    text-align: center;
+    align-items: center;
+    margin-top: -50px;
+}
+
+.lista-herramientas{
+    list-style: none;
+}
+.lista-herramientas img{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+.contenido-single{
+    margin-top: -130px;
+    margin-bottom: 0px;
+    padding: 0px 110px;
+}
+
+.contenido-single ul{
+    list-style: none;
+}
+
+.single-strong ul li a{
+    color: black;
+    pointer-events: none;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.single-strong ul {
+    display: flex;
+}
+.contenido-single h6{
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.contenido-single h6 strong{
+    color: #f37e4b;
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    margin-right: 5px;
+}
+.single-strong ul{
+    padding: 0px 0px 0px 3px;
+    height: 0px !important;
+}
+
+.cliente{
+    margin: 10px 0px 15px;
+}
+
+.columna12 {
+    padding: 50px 0px 0px;
+}
+
+.columna12 p{
+    margin-bottom: 0px;
+    text-align: start;
+    padding: 0px 160px;
+    font-family: 'Nunito';
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.row-img{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 50px 0px;
+}
+
+.row-img a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.row-img a img{
+    width: 400px;
+    height: 300px;
+}
+
+.row-img .columna-1 a img{
+    width: 300px;
+    height: 400px;    
+    overflow: hidden;
+    object-fit:cover;
+    object-position: center top;
+}
+
+.columna-2 a img{
+    width: 400px;
+    height: 250px;    
+    overflow: hidden;
+    object-fit:cover;
+    object-position: center top;
+}
+
+.imgbajo{
+    margin-bottom: 100px;
+}
+.botonatras{
+    background-color: #544393;
+    color: white;
+    font-size: 14px;
+    font-family: 'Poppins';
+    margin: 0px 0px 80px;
+    padding-inline: 30px;
+}
+
+.botonatras:hover{
+    background-color: #7765C8;
+    color: white;
+    transform: scale(1.1);
+}
+/*--------------------- Single ----------------------*/
+
+/*--------------------- Portafolio ----------------------*/
+.lista-herrami{
+    list-style: none;
+    align-items: center;
+}
+.lista-herrami img{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+.porta-web .card{
+    justify-content: center;
+    overflow: hidden;
+    width: 350px;
+    height: 450px;
+    text-align: center;
+    border-radius: 25px;
+    margin: 0px;
+    border-color: none;
+    border-style: none;
+    box-shadow: 0px 0px 5px black;
+    padding: 0px;
+    transition: scale 15s;
+}
+
+.porta-web .card:hover{
+    transform: scale(1.05);
+}
+
+.porta-web .card .img-porta img{
+    width: 350px;
+    height:200px;
+    object-fit: cover;
+    object-position: center top;
+    border: white solid 20px;
+    border-radius: 30px;
+    transition: height 2s;
+}
+
+.porta-web .card .img-porta img:hover{
+    height: 400px;
+}
+
+
+.porta-web .fragil h5 a{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    color: #f37e4b !important;
+    margin: -10px 0px 0px;
+    padding: 0px;
+    text-decoration: underline;
+    pointer-events: none;
+}
+
+.fragil img{
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 5px;
+}
+
+.lista-herrami ul li{
+    justify-content: center;
+    text-align: center;
+    margin-top: -30px !important;
+}
+.card .img-porta{
+    height: 150px;
+}
+
+.fondo-titulo{
+    justify-content: space-between;
+}
+
+.porta-web .fragil{
+    display: grid;
+    color: #EF946C;
+    background-color: white !important;
+    align-items: center;
+    box-shadow: none;
+    margin-top: 30px;
+    justify-items: center;
+    grid-template-rows: 0.5fr 0fr 0.2fr 0fr 0.2fr !important;
+    padding: 20px 25px;
+}
+
+
+
+.fragil .post-categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fragil .post-categories li{
+    margin-inline: 5px;
+}
+
+.card-footer{
+    background-color: #544393;
+}
+
+.card-footer:hover{
+    background-color: #f37e4b;
+}
+
+.card-footer small a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Poppins';
+}
+
+.carta .card{
+    margin-bottom: 100px;
+    margin-top: -20px;
+}
+
+.carta{
+    margin-bottom: 0px !important;
+}
+
+.fondo-pro-h2{
+    padding-top: 18px;
+}
+
+.paginacion{
+    justify-content: center;
+    text-align: center;
+    margin:10px 0px 90px;
+    font-size: 15px;
+    font-family: 'Lexend';
+}
+
+.paginacion .pages{
+    border: #7765C8 solid 1px;
+    color: #544393;
+}
+
+.paginacion .current{
+    color: #f37e4b;
+    border: 1.5px solid #f37e4b !important;
+}
+
+.paginacion .larger{
+    border: 1px #7765C8 solid !important;
+    color: #544393;
+}
+
+.paginacion .nextpostslink{
+    border: 1px #7765C8 solid !important;
+    color: #544393;
+}
+.paginacion .larger:hover{
+    border: #f37e4b solid 1px !important;
+    color: #f37e4b;
+}
+
+.paginacion .nextpostslink:hover{
+    border: #f37e4b solid 1px !important;
+    color: #f37e4b;
+}
+
+.previouspostslink{
+    border: 1px #7765C8 solid !important;
+    color: #544393;
+}
+
+.previouspostslink:hover{
+    border: #f37e4b solid 1px !important;
+    color: #f37e4b;
+}
+
+.paginacion .smaller{
+    border: 1px #7765C8 solid !important;
+    color: #544393;
+}
+.paginacion .smaller:hover{
+    border: #f37e4b solid 1px !important;
+    color: #f37e4b;
+}
+/*--------------------- Portafolio ----------------------*/
+
+/*--------------------- Sobre mi ----------------------*/
+
+.progreso .progress-bar{
+    border: pink;
+    background-color: #7765C8;
+}
+
+.progress{
+    border: black solid 1px;
+    margin: 10px 0px;
+}
+.fondo-pro-h1{
+    font-family: 'PoetsenOne';
+    font-size: 38px;
+    color: #544393;
+    text-align: center;
+    align-items: center;
+    margin: 30px 0px 0px;
+    padding-top: 15px;
+}
+
+.sobre-yo p{
+    font-size: 20px;
+    font-family: 'Nunito';
+}
+
+.hola-1 img{
+    width: 450px;
+}
+
+.hola-1 {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.sobre-yo .row22{
+    align-items: center;
+}
+
+.ayuda ul{
+    list-style: none;
+}
+
+.ayuda ul li img{
+    text-decoration: none;
+    width: 50px;
+    margin: 15px 15px;
+    border-radius: 1%;
+}
+
+.haha img{
+    width: 550px;
+    margin: 20px 0px;
+}
+
+.idioms img{
+    width: 170px;
+    margin: 20px 0px ;
+}
+.idioms{
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+.idioms ul{
+    list-style: none;
+}
+
+.haha h4{
+    font-family: 'Lexend';
+    font-size: 25px;
+    color: #544393;
+}
+
+.idioms h4{
+    font-family: 'Lexend';
+    font-size: 25px;
+    color: #544393;
+    justify-content: center;
+    text-align: center;
+}
+
+.row{
+    margin-top: 60px;
+}
+
+.sobre-fondo img{
+    width: 220px;
+}
+
+.sobre-fondo img:hover{
+    transform: scale(1.05);
+}
+
+.ayuda h4{
+    font-family: 'Lexend';
+    font-size: 25px;
+    color: #544393;
+    justify-content: center;
+    text-align: center;
+}
+
+.row33 .holi h4{
+    font-family: 'Lexend';
+    font-size: 25px;
+    color: #544393
+}
+
+.holi ul li{
+    font-family: 'Nunito';
+    font-size: 17px;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.row{
+    margin: 40px 0px ;
+}
+
+.row33 h4{
+    margin-bottom: 15px;
+}
+
+.sobre-fondo{
+    background: url('assets/img/3.2.png') 50% 0 no-repeat;
+    background-size: cover;
+    padding: 180px 0px 30px;
+    margin-top: 0px;
+}
+
+
+.sobre-fondo h3{
+    text-align: center;
+    font-family: 'PoetsenOne';
+    font-size: 45px;
+    color: white;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.582);
+    margin-bottom: 150px;
+}
+
+.datos p{
+    text-align: center;
+    color: white;
+    font-family: 'Lexend';
+    font-size: 18px;
+    margin-top: 10px;
+    text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.557);
+}
+
+.ola h3{
+    margin: 0px 0px 90px;
+}
+
+.ola .row {
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px 70px;
+}
+
+.ola p{
+    font-size: 16px;
+    font-family: 'Nunito';
+    font-weight: 700;
+    color: black;
+    padding: 0px 40px;
+    line-height: 30px;
+}
+
+.ola img{
+    width: 380px;
+}
+
+.oli h4{
+    font-family: 'Lexend';
+    font-size: 20px;
+    color: #544393;
+    margin-bottom: 30px;
+}
+
+.jaja{
+    background: url('assets/img/2.1.png') 50% 0 no-repeat;
+    background-size: 110%;
+    background-position-y: -620px;
+    margin-top: -10px;
+    padding: 100px 0px 200px;
+}
+
+.jaja h2{
+    font-size: 46px;
+}
+
+
+/*--------------------- Sobre mi ----------------------*/
